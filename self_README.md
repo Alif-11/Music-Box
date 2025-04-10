@@ -1,1 +1,8 @@
 [This](https://medium.com/@navindu-virajitha/how-to-start-a-mern-vite-project-with-a-github-remote-repository-a-beginners-guide-5819bfd4d6db) is the guide you are following to setup your project.
+
+
+To run your client folder, run this command:
+npm run dev
+
+If you want to download this repository and run these files later, be sure to
+hit npm install in both the client and server folders.
