@@ -1,0 +1,1 @@
+[This](https://medium.com/@navindu-virajitha/how-to-start-a-mern-vite-project-with-a-github-remote-repository-a-beginners-guide-5819bfd4d6db) is the guide you are following to setup your project.
