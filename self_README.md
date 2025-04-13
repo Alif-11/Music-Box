@@ -2,7 +2,11 @@
 
 
 To run your client folder, run this command:
-npm run dev
+```npm run dev```
 
 If you want to download this repository and run these files later, be sure to
 hit npm install in both the client and server folders.
+
+
+When you want to run server.js in the server/ folder, run the following command:
+```npx nodemon server.js```
