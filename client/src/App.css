@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,8 +24,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes beigify {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: #EDE8D0;
   }
 }
 
@@ -39,4 +62,17 @@
 
 .read-the-docs {
   color: #888;
+}
+
+:root {
+  background-color: white;
+  animation: beigify 0.7s forwards 1.1s;
+}
+
+#homepage-heading {
+  opacity: 0;
+}
+
+#homepage-heading.appear-animation {
+  animation: appear 0.7s forwards 2.2s;
 }

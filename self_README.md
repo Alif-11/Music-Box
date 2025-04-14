@@ -10,3 +10,5 @@ hit npm install in both the client and server folders.
 
 When you want to run server.js in the server/ folder, run the following command:
 ```npx nodemon server.js```
+
+[Potentially useful for MERN App Hosting](https://vinyldavyl.medium.com/how-to-deploy-a-fullstack-nodejs-and-express-app-on-vercel-c79d433eeb6)

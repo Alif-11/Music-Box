@@ -6,6 +6,11 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  return (<>
+    <h1 id="homepage-heading" className="appear-animation">Music Box</h1>
+  </>);
+
+  /*
   return (
     <>
       <div>
@@ -29,7 +34,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  )*/
+
+
 }
 
 export default App
