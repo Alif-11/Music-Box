@@ -12,3 +12,5 @@ When you want to run server.js in the server/ folder, run the following command:
 ```npx nodemon server.js```
 
 [Potentially useful for MERN App Hosting](https://vinyldavyl.medium.com/how-to-deploy-a-fullstack-nodejs-and-express-app-on-vercel-c79d433eeb6)
+
+[This figma design gives you the UI you are following](https://www.figma.com/design/pWjmP9AhAUTfNg4wi9C7wu/Music-Player-UI-KIT🎧--Community-?node-id=0-1&p=f&t=9xVzFqQgF99uaSl2-0)
