@@ -7,9 +7,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (<>
+    <div className="svg-left-align">
+      <svg width="56px" height="64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="X448Y512"><path fill="#FFFFFF" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" /></svg>
+    </div>
     <h1 id="homepage-heading" className="appear-animation">Music Box</h1>
     <h2 id="homepage-subheading" className="appear-animation">Your One Stop Shop For</h2>
     <h3 id="homepage-sub-subheading" className="appear-animation">Vibes and Videos</h3>
+
   </>);
 
   /*

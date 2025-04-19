@@ -118,3 +118,7 @@
 #homepage-sub-subheading.appear-animation {
   animation: appear-sub-subheading 2.5s forwards 2.4s;
 }
+
+.svg-left-align {
+  text-align: left;
+}
