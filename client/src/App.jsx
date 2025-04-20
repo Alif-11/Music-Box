@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import AutoPlayer from './react-components/AutoPlayer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <h1 id="homepage-heading" className="appear-animation">Music Box</h1>
     <h2 id="homepage-subheading" className="appear-animation">Your One Stop Shop For</h2>
     <h3 id="homepage-sub-subheading" className="appear-animation">Vibes and Videos</h3>
+    <AutoPlayer videoURL={"https://www.youtube.com/watch?v=-R0UYHS8A_A"} />
 
   </>);
 
