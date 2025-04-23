@@ -5,7 +5,9 @@ import ReactPlayer from 'react-player';
 function AutoPlayer({ videoURL }) {
   return (
     <>
-      <ReactPlayer url={videoURL} playing="true" />
+      <div className="center">
+        <ReactPlayer url={videoURL} playing="true" />
+      </div >
     </>
   );
 }

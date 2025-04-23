@@ -13,7 +13,8 @@ function App() {
     </div>
     <h1 id="homepage-heading" className="appear-animation">Music Box</h1>
     <h2 id="homepage-subheading" className="appear-animation">Your One Stop Shop For</h2>
-    <h3 id="homepage-sub-subheading" className="appear-animation">Vibes and Videos</h3>
+    <h3 id="homepage-sub-subheading" className="appear-animation">Music and Moods</h3>
+    <h4 id="homepage-sub-sub-subheading" className="appear-animation">Want to see video credits? Scroll down!</h4>
     <AutoPlayer videoURL={"https://www.youtube.com/watch?v=-R0UYHS8A_A"} />
 
   </>);
