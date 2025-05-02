@@ -6,7 +6,7 @@ function AutoPlayer({ videoURL }) {
   return (
     <>
       <div className="center">
-        <ReactPlayer url={videoURL} playing="true" />
+        <ReactPlayer url={videoURL} playing="true" controls="true" />
       </div >
     </>
   );
