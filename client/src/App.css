@@ -176,6 +176,18 @@
   animation: appear 0.7s forwards 1.1s;
 }
 
+#music-theme-selector.make-big {
+  color: pink;
+}
+
+#music-theme-selector.vertical-scroll {
+  overflow-y: scroll;
+  width: 100px;
+  height: 100px;
+}
+
+
+
 #menu-bars {
   opacity: 0;
 }

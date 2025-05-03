@@ -1,11 +1,30 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import AutoPlayer from './react-components/AutoPlayer';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+
+
+
+
+
+  useEffect(() => {
+    const music_theme_selector = document.getElementById("music-theme-selector");
+
+    function makeBig() {
+      music_theme_selector.classList.add("make-big");
+    }
+
+    function undoMakeBig() {
+      music_theme_selector.classList.remove("make-big");
+    }
+    music_theme_selector.addEventListener("mouseenter", makeBig);
+    music_theme_selector.addEventListener("mouseleave", undoMakeBig);
+  }, []);
 
   return (<>
     <div id="menu-bars" className="svg-left-align appear-animation">
@@ -15,7 +34,41 @@ function App() {
     <div className="side-by-side">
       <div id="invisible-spacer-heading-line"></div>
       <h1 id="homepage-heading" className="appear-animation">Music Box</h1>
-      <div id="music-theme-selector" className="appear-animation">Music Theme Selector</div>
+      <div id="music-theme-selector" className="appear-animation vertical-scroll">
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div> <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+        <div>Bruh</div>
+        <div>BruhCore</div>
+      </div>
     </div>
 
     <h2 id="homepage-subheading" className="appear-animation">Your One Stop Shop For</h2>
